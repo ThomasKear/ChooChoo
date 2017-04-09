@@ -12,6 +12,42 @@ div#background {
     height: 100%;
 }
 
+body {
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
 div.jumbotron {
-	background-color: #9fedd7; 
+    letter-spacing: 4px;
+    background-color: rgb(221,238,238);
+    background-color: rgba(221,238,238, 0.4);
+}
+
+p {
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+thead {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 20px;
+}
+
+div#results {
+    background-color: rgb(187,238,238);
+    background-color: rgba(187,238,238, 0.6);
+    color: #000;
+}
+
+#add-train-btn {
+    background-color: #4d6e9b;
+}
+
+.form-group {
+	font-family: "Times New Roman", Georgia, Serif;
+    font-size: 20px;
+}
+
+td {
+	font-size: 18px;
 }
